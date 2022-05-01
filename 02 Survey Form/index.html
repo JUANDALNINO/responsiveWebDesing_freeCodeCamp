@@ -4,74 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/02 Survey Form/styles.css">
     <title>Survey Form</title>
 </head>
 <body>
-    <div class="main">
-        <h1 id="title">WRITER'S PROFILE</h1>
-        <P id="description">About you</P>
-
-        <div class="main-content">
-            <div class="form-content">
-                <form id="survey-form">
-                    <label id="name-label" for="name">Name</label>
-                    <input id="name" type="text" placeholder="Enter your name" required>
-
-                    <label id="email-label" for="email">Email</label>
-                    <input id="email" type="email" placeholder="Enter your email" required>
-
-                    <label id="number-label" for="number">Enter your rate from 1 to 10</label>
-                    <input id="number" type="number" min="1" max="10" placeholder="Enter your rate" required>
-
-                    <label for="dropdown">Which option best describes your experience?</label>
-                    <select id="dropdown">
-                        <option value="never">Never writing</option>
-                        <option value="few-time-ago">I writing few time ago</option>
-                        <option value="try">I try to write</option>
-                        <option value="everyday">I write every day</option>
-                    </select>
-
-                    <fieldset>
-                        <legend>Do you want write now?</legend>
-                        <input name="recommend" type="radio" name="action" checked id="definitely" value="definitely">
-                        <label for="definitely">Definitely</label>
-
-                        <input name="recommend" type="radio" name="action" id="maybe" value="maybe">
-                        <label for="maybe">Maybe</label>
-
-                        <input name="recommend" type="radio" name="action" id="not-sure" value="not-sure">
-                        <label for="not-sure">Not sure</label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>What would you like to see improved?</legend>
-                        <input name="plot" type="checkbox" id="plot" value="plot">
-                        <label for="plot">Plot</label>
-
-                        <input name="characters" type="checkbox" id="characters" value="characters">
-                        <label for="characters">Characters</label>
-
-                        <input name="theme" type="checkbox" id="theme" value="theme">
-                        <label for="theme">Theme</label>
-                    </fieldset>
-
-                    <label for="comment">Any comments or suggestions?</label>
-                    <textarea rows="4" cols="50" id="comment">Enter your comment here...</textarea>
-
-                    <button type="submit" id="submit">Submit</button>
-                </form>
-
-                <h5 class="end">
-                    Developed for FreeCodeCamp - A Survey Form - 2022 <br>
-                    <a id="survey-link"
-                    href="https://www.freecodecamp.org/JuanDavidLN"
-                    target="_blank"
-                    >By Juan David Lizarralde Niño</a>
-                </h5>
-
-            </div>
-        </div>
-    </div>               
+    
 </body>
 </html>
